@@ -1,2 +1,1 @@
-# prometheus-ml-demo
-Using Prometheus to monitor a machine learning system
+A demo project showing how to use Prometheus to monitor a machine learning system
