@@ -2,14 +2,4 @@ A demo project showing how to use Prometheus to monitor a machine learning syste
 
 ### Grafana
 
-PromQL query for `dev` distribution
-```
-model_feature_bucket{env="dev"}
-```
-
-PromQL query for `prod` distribution
-```
-model_feature_bucket{env="dev"}
-```
-
-Select `Heatmap` for both `Visualization` and `Format` to plot the distribution over time.
+![Grafana demo](https://imgur.com/3SK3cyU)
