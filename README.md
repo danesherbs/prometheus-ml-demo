@@ -2,4 +2,7 @@ A demo project showing how to use Prometheus to monitor a machine learning syste
 
 ### Grafana
 
-![Grafana demo](https://imgur.com/3SK3cyU)
+<p align="center">
+  <img src="https://imgur.com/3SK3cyU.gif">
+</p>
+
