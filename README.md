@@ -10,6 +10,9 @@ You should be able to view the `dev` and `prod` distributions on Grafana in real
 
 ## Setup
 
+### Demo
+Run `python train.py` and `python deploy.py` in seperate terminals and leave them running.
+
 ### Prometheus
 
 Follow the [Starting Prometheus ](https://prometheus.io/docs/prometheus/latest/getting_started/#starting-prometheus) guide, using the `prometheus.yml` in this repository as the config file when starting Prometheus locally.
