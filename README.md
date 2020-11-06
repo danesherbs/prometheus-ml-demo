@@ -5,7 +5,7 @@ A demo project showing how to use Prometheus to monitor a machine learning syste
 You should be able to view the `dev` and `prod` distributions on Grafana in real time.
 
 <p align="center">
-  <img src="https://media.giphy.com/media/P1ERIRmHUCySKJmLC1/giphy.gif">
+  <img src="https://i.imgur.com/g7lDepn.png">
 </p>
 
 ## Setup
