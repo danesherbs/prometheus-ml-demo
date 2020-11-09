@@ -30,7 +30,7 @@ model_feature_bucket{env="dev"}
 
 PromQL query for `prod` distribution
 ```
-model_feature_bucket{env="dev"}
+model_feature_bucket{env="prod"}
 ```
 
 Select `Heatmap` for both `Visualization` and `Format`, `legend` to `{{le}}` and `Data Format` to `Time series buckets`, like so:
