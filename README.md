@@ -38,3 +38,11 @@ Select `Heatmap` for both `Visualization` and `Format`, `legend` to `{{le}}` and
 <p align="center">
   <img src="https://media.giphy.com/media/aEtDSmnOoFNmXS1woy/giphy.gif">
 </p>
+
+## Alerts for data drift
+
+Grafana doesn't allow for alerts to be set on heatmaps.
+
+One option for detecting data drift is to write an exporter, which takes the exported metrics (on ports `8000` and `8001` in the demo), augmenting them (with e.g. distance between `dev` and `prod` using the [KS test](https://en.wikipedia.org/wiki/Kolmogorov%E2%80%93Smirnov_test)) and exposing them on another endpoint.
+
+For more information on exporters, see [Prometheus - Writing Exporters](https://prometheus.io/docs/instrumenting/writing_exporters/).
